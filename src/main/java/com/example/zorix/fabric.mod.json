@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zorix",
+  "version": "${version}",
+  "name": "Zorix Client",
+  "description": "Zorix Client: menu, aura, shooting stars and sky packs.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.zorix.ZorixClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "skyboxify": "*"
+  }
+}
